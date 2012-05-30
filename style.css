@@ -98,3 +98,7 @@ img {
     margin: auto;
     max-width: 100px;
 }
+
+#contact h3, #contact h4, #contact p {
+    margin: 8px 0;
+}
