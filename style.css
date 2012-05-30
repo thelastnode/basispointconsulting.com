@@ -79,3 +79,22 @@ ul li {
 ul li:before {
     content: "\00BB \0020";
 }
+
+.client-images {
+    width: 700px;
+    margin: auto;
+}
+
+.client-images .wrapper {
+    width: 100px;
+    height: 100px;
+    padding: 0px 10px;
+
+    display:table-cell;
+    vertical-align:middle;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+}
