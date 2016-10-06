@@ -47,27 +47,30 @@ h2.tagline {
 }
 
 h2 {
-    font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
     font-size: 1.1em;
-    font-style: italics;
-    text-align: right;
-    font-style: italic;
-    font-weight: normal;
+    font-weight: bold;
 
     color: #555;
 
     margin-top: 40px;
-
     border-bottom: #EEE 3px solid;
 }
 
 h3 {
     font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-weight: normal;
 }
 
 ul {
     list-style: none;
-    line-spacing: 1.5em;
+    margin: 10px 20px 20px;
+    padding: 0;
 }
 
 ul li {
@@ -101,4 +104,9 @@ img {
 
 #contact h3, #contact h4, #contact p {
     margin: 8px 0;
+}
+
+.focus-list, .domain-experience-list, #contact {
+    margin-left: 30px;
+    padding: 0;
 }
